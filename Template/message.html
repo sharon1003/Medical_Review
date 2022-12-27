@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="../static/image/logo_copy.png" type="../static/image/png">
+        <title>Review Analysis</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../static/css/bootstrap.css">
+        <link rel="stylesheet" href="../static/vendors/linericon/style.css">
+        <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
+        <link rel="stylesheet" href="../static/vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="../static/vendors/owl-carousel/owl.carousel.min.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/responsive.css">
+    </head>
+    <body>
+        <!--================Header Area =================-->
+        <header class="header_area">
+            <div class="container">
+            </div>
+        </header>
+        <!--================Header Area =================-->
+        
+        <!--================Breadcrumb Area =================-->
+        <section class="breadcrumb_area blog_banner_two">
+            <!-- <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div>
+ -->            <div class="container">
+                <div class="page-cover text-center">
+                    <h2 class="page-cover-tittle f_48">醫療評論分析預測模型</h2>
+                </div>
+            </div>
+        </section>
+        <!--================Breadcrumb Area =================-->
+        
+        <!--================Blog Area =================-->
+         <section class="accomodation_area section_gap">
+            <div class="container">
+                <div class="section_title text-center">
+                    <h2 class="title_color">請輸入您對此醫院的評論</h2>
+                    <!-- <p>A good traveler has no fixed plans, and is not intent on arriving.</p> -->
+                    <br>
+                    <form name="myform" action="." method="POST">{% csrf_token %} 
+                            <!-- <label for='user_id'></label>
+                            <input id='user_id' type='text' name='user_id' style="width:693px; height:240px"></br> -->
+                            <textarea name="mytext" align="center" style="font-size:20px;width:600px;height:200px;"> </textarea>
+                            <br><br> <!--換行-->
+
+                            <strong><font size = "4"><input type="submit" value="送出"></font>
+                            </strong>
+                            &nbsp;&nbsp;&nbsp;&nbsp; <!--&nbsp; 代表空格-->
+                            <font size = "100" color="blue"><strong><input type="reset" class="btn theme_btn button_hover" value="清除重填"></strong></font></CENTER>
+                            <br><br>
+                            <br><br> 
+                            <h2 class="title_color">本則評論之預測結果</h2>
+                            <br>
+                            <!-- <h2 class="title_color">{{ review }}</h2> -->
+                   </form>
+                   <div class="container">
+                       <center><table style="border:4px #5c5b5b  solid;" cellpadding="20" border='1'>  <!-- #cccccc -->
+                       <tr> <!-- 第一列 -->
+                          <td align="center"><font size = "5" color="#000000"></td>
+                          <td align="center"><font size = "5" color="#000000">醫療評價</td>
+                          <td align="center"><font size = "5" color="#000000">交通方便</td>
+                          <td align="center"><font size = "5" color="#000000">醫療環境</td>
+                          <td align="center"><font size = "5" color="#000000">專業程度</td>
+                          <td align="center"><font size = "5" color="#000000">流程體驗</td>
+                          <td align="center"><font size = "5" color="#000000">服務態度</td>
+                          <td align="center"><font size = "5" color="#000000">溝通能力</td>
+                       </tr>
+                       <tr>
+                          <td align="center"><font size = "5" color="#000000">預測分數</td>
+                          <td align="center"><font size = "5" color="#000000">{{ review }}</td>
+                          <td align="center"><font size = "5" color="#000000">{{ review }}</td>
+                          <td align="center"><font size = "5" color="#000000">{{ review }}</td>
+                          <td align="center"><font size = "5" color="#000000">{{ review }}</td>
+                          <td align="center"><font size = "5" color="#000000">{{ review }}</td>
+                          <td align="center"><font size = "5" color="#000000">{{ review }}</td>
+                          <td align="center"><font size = "5" color="#000000">{{ review }}</td>
+
+                            
+                           <!-- <td align="center"><font size = "5" color="#000000">1</td>
+                           <td align="center"><font size = "5" color="#000000">無</td>
+                           <td align="center"><font size = "5" color="#000000">無</td>
+                           <td align="center"><font size = "5" color="#000000">無</td>
+                           <td align="center"><font size = "5" color="#000000">無</td>
+                           <td align="center"><font size = "5" color="#000000">1</td>
+                           <td align="center"><font size = "5" color="#000000">無</td> -->
+                       </tr>
+                       </table></center>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <!--================Blog Area =================-->
+        
+        <!--================ start footer Area  =================-->    
+        <footer class="footer-area section_gap">
+            <div class="container">
+            </div>
+        </footer>
+        <!--================ End footer Area  =================-->
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="/./static/js/jquery-3.2.1.min.js"></script>
+        <script src="/./static/js/popper.js"></script>
+        <script src="/./static/js/bootstrap.min.js"></script>
+        <script src="/./static/vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="/./static/js/jquery.ajaxchimp.min.js"></script>
+        <script src="/./static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js"></script>
+        <script src="/./static/vendors/nice-select/js/jquery.nice-select.js"></script>
+        <script src="/./static/js/mail-script.js"></script>
+        <script src="/./static/js/stellar.js"></script>
+        <script src="/./static/vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="/./static/js/custom.js"></script>
+    </body>
+</html>
