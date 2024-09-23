@@ -1,9 +1,7 @@
 # Analysis of Medical Reviews Based on Deep Learning
 
-[Application Video](https://youtu.be/rQpl_qYP_lc/ "Title")  
-=========================================================
-[Webpage Demonstration Video](https://youtu.be/NPB3eozivJQ/ "Title")  
-=========================================================
+### [Application Video](https://youtu.be/rQpl_qYP_lc/ "Title")  
+### [Webpage Demonstration Video](https://youtu.be/NPB3eozivJQ/ "Title")  
 
 ## Intorduction
 In this project, we used django to build the web and using CNN and LSTM for training.
