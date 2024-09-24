@@ -7,15 +7,15 @@
 
 ## Introduction of Data
 本專案所使用的資料，為專家已事先標籤。
-<img src='/images/data_intro.jpg' alt="" width='500' height='500'>
+<img src='/images/data_intro.jpg' alt="" width='510' height='299'>
 
 
 ## Model Architecture
-<img src='/images/model_architecture.jpg' alt="" width='500' height='500'>
+<img src='/images/model_architecture.jpg' alt="" width='506' height='388'>
 
 ## Testing Result
-<img src='/images/Accracy_1.jpg' alt="" width='500' height='500'>
+<img src='/images/Accracy_1.jpg' alt="" width='726' height='211'>
 
 ## Testing Result
-<img src='/images/Accracy_2.jpg' alt="" width='500' height='500'>
+<img src='/images/Accracy_2.jpg' alt="" width='726' height='211'>
 
