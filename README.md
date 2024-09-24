@@ -7,6 +7,7 @@
 
 ## Introduction of Data
 本專案所使用的資料，為專家已事先標籤。
+
 <img src='/images/data_intro.jpg' alt="" width='510' height='299'>
 
 
