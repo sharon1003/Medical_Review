@@ -1,7 +1,6 @@
 # Analysis of Medical Reviews Based on Deep Learning
 
-### [Application Video](https://youtu.be/rQpl_qYP_lc/ "Title")  
-### [Webpage Demonstration Video](https://youtu.be/NPB3eozivJQ/ "Title")  
+### [Demonstration Video](https://youtu.be/NPB3eozivJQ/ "Title")  
 
 ## Intorduction
 在這次的專案，我們的目標是訓練出一個可以分辨出評論情緒的分類器。
