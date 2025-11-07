@@ -6,7 +6,7 @@
 The project aims to categorize different aspects based on  an annotated Google review dataset, which experts have annotated. 
 在這次的專案，我們的目標是訓練出一個可以分辨出評論情緒的分類器。
 
-<img src='/images/Overview.png' alt="" width='510' height='299'>
+<img src='/images/Overview.png' alt="" width='600' height='299'>
 
 
 ### Model Architecture
