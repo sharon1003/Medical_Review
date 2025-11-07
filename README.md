@@ -5,6 +5,7 @@
 ### Introduction
 The project aims to categorize different aspects based on  an annotated Google review dataset, which experts have annotated. 
 在這次的專案，我們的目標是訓練出一個可以分辨出評論情緒的分類器。
+
 <img src='/images/Overview.png' alt="" width='510' height='299'>
 
 
@@ -14,6 +15,7 @@ The project aims to categorize different aspects based on  an annotated Google r
 
 ### Introduction of Data
 本專案所使用的資料，為專家已事先標籤。
+
 <img src='/images/data_intro.jpg' alt="" width='510' height='299'>
 
 ### Web Interface
